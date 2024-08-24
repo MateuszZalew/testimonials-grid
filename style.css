@@ -124,6 +124,10 @@ main {
   background-color: var(--clr-dark-blackish);
 }
 
+#card__patrick img {
+  outline-color: var(--clr-violet);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -145,10 +149,14 @@ main {
 @media (min-width: 72rem) {
   main {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 300px);
+    grid-template-rows: repeat(2, 280px);
     align-content: center;
     max-width: 1110px;
     margin: 0;
+  }
+
+  .card blockquote {
+    font-size: 1em;
   }
 
   .card__bg {
